@@ -25,17 +25,12 @@ public class Main {
 
 
         listaProdutos.stream()
-
                 //Interface Predicate - filtrar os nomes dos produtos que contém 'Geladeira'
                 .filter(p -> p.getNome().contains("Geladeira"))
-
                 //Interface Comparator - ordenar o preço em ordem crescente de acordo com a implemetação da classe OrdenaProdutoPorPreco
                 .sorted((p1, p2) -> p1.getPreco().compareTo(p2.getPreco()))
-
                 //Interface Function - aplicar uma dada função (toUpperCase) aos elementos dessa stream
-                .map(p -> p.getPreco())
-                //
-
+                .map(p -> p.getNome()+" - "+p.getPreco())
                 //Interface Consumer - percorrer cada elemento da stream e exibi-los no console
                 .forEach(System.out::println);
     }
