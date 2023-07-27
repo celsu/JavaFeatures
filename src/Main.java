@@ -15,7 +15,7 @@ public class Main {
         listaProdutos.add(new Produto(4000, "Computador i5 2.9Ghz 4GB 1TB HD", 2429.00));
         listaProdutos.add(new Produto(1002, "Geladeira 500L", 3100.00));
 
-        //Cria lista só de geladeiras
+        //Cria lista só de geladeiras #
         List<Produto> listaGeladeiras = new ArrayList<Produto>();
         for(Produto p : listaProdutos) {
             if(p.getNome().contains("Geladeira")) {
