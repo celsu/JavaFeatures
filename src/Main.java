@@ -4,7 +4,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-
+                    // ---- JAVA STREAM ----
         List<Produto> listaProdutos = new ArrayList<Produto>();
 
         listaProdutos.add(new Produto(1000, "Geladeira 470L", 2999.00));
@@ -22,7 +22,6 @@ public class Main {
                 listaGeladeiras.add(p);
             }
         }
-
 
         listaProdutos.stream()
                 //Interface Predicate - filtrar os nomes dos produtos que contém 'Geladeira'
