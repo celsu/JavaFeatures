@@ -19,6 +19,8 @@ public class Main {
         listaProdutos2.add(new Produto2(1000, "Geladeira 470L", 2999.00));
         listaProdutos2.forEach((p) -> System.out.println(p.getNome()));*/
 
+        //Lambda 2 Argumento - [x, y -> x+y]
+
 
     }
 

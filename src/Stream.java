@@ -22,6 +22,9 @@ public class Stream {
             }
         }
 
+        //Listar usando lambda
+        listaGeladeiras.forEach((p) -> System.out.println(p.getNome()));
+
         //Cria lista só de geladeiras USANDO STREAM
         listaProdutos.stream()
                 //Interface Predicate - filtrar os nomes dos produtos que contém 'Geladeira'
