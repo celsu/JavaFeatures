@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Stream {
-
+    //JAVA 8
     public void metodoStream(){
         // ---- JAVA STREAM (JAVA 8)----
         List<Produto> listaProdutos = new ArrayList<Produto>();
