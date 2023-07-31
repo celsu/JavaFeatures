@@ -6,7 +6,6 @@ public class Stream {
     public void metodoStream(){
         // ---- JAVA STREAM (JAVA 8)----
         List<Produto> listaProdutos = new ArrayList<Produto>();
-
         listaProdutos.add(new Produto(1000, "Geladeira 470L", 2999.00));
         listaProdutos.add(new Produto(2000, "TV UHD 50''", 3500.00));
         listaProdutos.add(new Produto(1001, "TV UHD 65''", 5000.00));
@@ -15,7 +14,7 @@ public class Stream {
         listaProdutos.add(new Produto(4000, "Computador i5 2.9Ghz 4GB 1TB HD", 2429.00));
         listaProdutos.add(new Produto(1002, "Geladeira 500L", 3100.00));
 
-        //Cria lista só de geladeiras
+        //Cria lista só de geladeiras SEM STREAM
         List<Produto> listaGeladeiras = new ArrayList<Produto>();
         for(Produto p : listaProdutos) {
             if(p.getNome().contains("Geladeira")) {
@@ -23,6 +22,7 @@ public class Stream {
             }
         }
 
+        //Cria lista só de geladeiras USANDO STREAM
         listaProdutos.stream()
                 //Interface Predicate - filtrar os nomes dos produtos que contém 'Geladeira'
                 //takeWhile = Filtra até nao satifazer a oondiçao
