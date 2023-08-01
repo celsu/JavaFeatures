@@ -6,7 +6,7 @@ public class Main {
 
 
 
-        Stream se = new Stream();se.metodoStream();
+        //Stream se = new Stream();se.metodoStream();
 
         //LambdaExpressions la = new LambdaExpressions();
         //la.t1.start();
@@ -20,6 +20,11 @@ public class Main {
         listaProdutos2.forEach((p) -> System.out.println(p.getNome()));*/
 
         //Lambda 2 Argumento - [x, y -> x+y]
+
+        RecordsEx re = new RecordsEx(8);
+        System.out.println(re.arg1());
+
+
 
 
     }
