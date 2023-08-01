@@ -13,4 +13,7 @@ public record RecordsEx(double arg1) {
     //Metodos nativos nao podem ser declarados (public native void nomeMetodo())
     //Reflexao (https://www.udemy.com/course/java-avancado-new-features/learn/lecture/37703868#questions)
     //Se tiver uma variavel final, usando Reflexao é possivel mudar o valor, porem com record gera excessao
+    //"Controle de heranças"
+
+
 }
