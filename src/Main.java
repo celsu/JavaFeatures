@@ -21,9 +21,12 @@ public class Main {
 
         //Lambda 2 Argumento - [x, y -> x+y]
 
-        RecordsEx re = new RecordsEx(8);
-        System.out.println(re.arg1());
+        //RecordsEx re = new RecordsEx(8);
+        //System.out.println(re.arg1());
 
+
+
+        //System.out.println(d % 2 == 0 ? (9/5 * d) + 32 : (d-32) * (5/9));
 
 
 
