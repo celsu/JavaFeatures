@@ -3,6 +3,8 @@ import java.util.List;
 
 public class Stream {
     //JAVA 8
+    //https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
+    //https://docs.oracle.com/javase/8/docs/api/?java/lang/StringBuilder.html
     public void metodoStream(){
         // ---- JAVA STREAM (JAVA 8)----
         List<Produto> listaProdutos = new ArrayList<Produto>();
